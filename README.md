@@ -80,7 +80,7 @@ All of these runs ended with `Execution ended Normally`. "Not kept" means
 that only the logs (and, where present, the grid files and the last
 `pickup.ckptA/B`) remain on LaCie. The raw output of the S runs and of
 `R_G5dminus` was deleted before 2026-10-29, and that of `R_G5dplus` and
-`R50Lplus` was approved for deletion on 2026-10-29. Rerunning any case
+`R50Lplus` was deleted on 2026-10-29 (`archive/cleanup_ctw_svb_20261029.py`). Rerunning any case
 regenerates it exactly (same executable and inputs).
 
 Other folders in the final configuration:

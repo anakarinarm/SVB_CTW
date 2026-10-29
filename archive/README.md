@@ -22,9 +22,11 @@ that stage. The links inside the run folders (for example
   `available_diagnostics.log` of the smoke tests.
 - The smoke-test model output, the build folders and the stage-specific
   input binaries (`../input/telescoped_buffer/*.bin`,
-  `../input/telescoped_south_extended/*.bin`) were approved for deletion on
-  2026-10-29. The scripts in each group's `scripts/` can regenerate those
-  inputs.
+  `../input/telescoped_south_extended/*.bin`) were deleted on 2026-10-29 with
+  `cleanup_ctw_svb_20261029.py`. That script also deleted the LaCie output of
+  `R_G5dplus` and `R50Lplus` (3.9 TB). The links in `telescoped_input/` and
+  `south_extended_input/` now dangle. The scripts in each group's `scripts/`
+  can regenerate those inputs.
 - `ctw_reruns/common_input` is now a link to
   `../../../input/common_input_512x612`. The final inputs are built from those
   files, so they stay in `input/`.
