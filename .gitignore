@@ -31,3 +31,16 @@ ctw_reruns_telescoped_west64_south72/gaussian5d_review/forcing_spectrum.csv
 
 __pycache__/
 .DS_Store
+
+# Figures are not committed unless KRM asks for a specific one (*.pdf above).
+# To commit one, add an exception below, e.g.  !path/to/figure.png
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.eps
+*.tif
+*.tiff
+*.bmp
+*.webp
