@@ -1,4 +1,4 @@
-# `CTW_SVB`
+# `SVB_CTW`
 
 > Written by Claude, approved by KRM.
 
@@ -7,13 +7,22 @@ Sebastián Vizcaíno Bay (SVB), rerun with controlled bathymetries for the
 manuscript revision. The design and requirements for the reruns are in
 `README_CODEX_CTW_RERUNS.md`.
 
-Last reorganized: 2026-10-29. Superseded configurations are in `archive/`
-(see `archive/README.md`).
+This repository holds the model configuration only: code modifications,
+namelists, input-generation, run and analysis scripts. MITgcm itself is not
+included (see [Reproducing the runs](#reproducing-the-runs)), and neither are
+the input binaries or the model output.
+
+Until 2026-10-29 this lived in `verification/CTW_SVB` of a personal MITgcm
+fork; the history of that folder was carried over. Superseded configurations
+are in `archive/` (see `archive/README.md`).
 
 ## Layout
 
 ```text
 README.md                                  this file
+build.sh                                   builds the executable against an MITgcm checkout
+build_options/                             genmake2 options used for the runs (macOS arm64, gfortran, MPI)
+LICENSE, CITATION.cff, .zenodo.json        license and citation metadata
 README_CODEX_CTW_RERUNS.md                 rerun specification (Codex hand-off, July 2026)
 ctw_reruns_telescoped_west64_south72/      FINAL configuration: all run namelists, build, QC
 code_telescoped_west64_south72_noexch2/    model code of the final configuration
@@ -119,12 +128,55 @@ On 2026-10-29 the original-domain inputs moved from `ctw_reruns/common_input`
 to `input/common_input_512x612`. The four scripts that read them were updated
 (one path each).
 
+## Reproducing the runs
+
+1. **MITgcm.** Clone MITgcm and check out the version used for all runs,
+   `checkpoint69k-11-gdecd05a68` (2026-02-12):
+
+   ```bash
+   git clone https://github.com/MITgcm/MITgcm.git
+   git -C MITgcm checkout decd05a68a16c9a10b05da054f140886b217a441
+   ```
+
+   No MITgcm source file is modified; all changes are in
+   `code_telescoped_west64_south72_noexch2/`.
+2. **Build.** `MITGCM_ROOT=/path/to/MITgcm ./build.sh` writes
+   `ctw_reruns_telescoped_west64_south72/build_binary/mitgcmuv`. The original
+   runs used `build_options/darwin_arm64_gfortran_krm` (Homebrew GCC/gfortran
+   15.2.0, MPICH, macOS 15 on Apple silicon); on another system pass a
+   suitable optfile with `OPTFILE=...`. 16 MPI ranks (4 x 4) are required.
+3. **Inputs.** The binaries are not in git. The approved 512 x 612
+   bathymetries (`input/*_FINAL.bin`) come from
+   `scripts/CTW_build_final_bathymetries.py`; the original-domain forcing and
+   T/S (`input/common_input_512x612`) from the scripts listed below, starting
+   from the original files referenced by `real_SVB/data`; and the final-domain
+   inputs from `scripts/make_telescoped_west64_south72_inputs.py`.
+4. **Run.** Each run folder in `ctw_reruns_telescoped_west64_south72/` holds
+   the namelists of one experiment. Run `mpirun -np 16 ./mitgcmuv` in a folder
+   that contains (or links to) those namelists, `mitgcmuv` and
+   `west_south_input/`; `scripts/prepare_external_output_dirs.py` sets up such
+   folders on an external drive. Allow about 1.3 TB per 15-day case.
+
+Check on 2026-10-29: rebuilding with `build.sh` from MITgcm `decd05a68` in
+this repository reproduced the preprocessed Fortran sources of the executable
+used for the runs (see the log at the end of this file).
+
 ## Practical notes
 
-- Python: `/opt/homebrew/Caskroom/miniforge/base/bin/python3` (MITgcmutils,
-  xarray, cmocean).
-- New case: copy a run folder, change the namelist, create its LaCie folder
-  with `prepare_external_output_dirs.py`, and run `mpirun -np 16 ./mitgcmuv`
-  there. Allow about 1.3 TB per 15-day case.
-- Git tracks namelists, code, scripts, READMEs and small figures. Binaries,
-  output, builds, PDFs and movies are excluded (`.gitignore`).
+- Python: a conda/miniforge environment with MITgcmutils, xarray, netCDF4,
+  matplotlib and cmocean.
+- New case: copy a run folder, change the namelist, create its external
+  folder with `prepare_external_output_dirs.py`, and run there.
+- Git tracks namelists, code, scripts and READMEs. Binaries, output, builds,
+  figures, PDFs and movies are excluded (`.gitignore`).
+
+## Log
+
+- 2026-10-29: moved out of the MITgcm fork into this repository; `build.sh`,
+  `build_options/`, license and citation files added. Reproducibility check:
+  `./build.sh build_repro` with MITgcm `decd05a68` and the same toolchain gave
+  668 preprocessed sources (`*.for`) identical to those of the executable used
+  for the runs (`ctw_reruns_telescoped_west64_south72/build_binary`, built
+  2026-07-29), except for the build date string in `eeintro_msg.for`. Headers
+  (`SIZE.h`, `CPP_OPTIONS.h`, `OBCS_OPTIONS.h`, `DIAGNOSTICS_SIZE.h`,
+  `PACKAGES_CONFIG.h`) and compiler flags were identical.

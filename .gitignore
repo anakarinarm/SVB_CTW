@@ -16,6 +16,7 @@ mnc_*/
 
 # builds and executables
 build*/
+!build_options/
 mitgcmuv
 
 # large media and LaTeX by-products

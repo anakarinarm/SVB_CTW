@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this configuration, please cite it as below."
+title: "MITgcm configuration for coastal-trapped waves generated at Sebastián Vizcaíno Bay (SVB_CTW)"
+authors:
+  - family-names: "Ramos Musalem"
+    given-names: "Karina"
+    affiliation: "CICESE"
+license: MIT
+repository-code: "https://github.com/anakarinarm/SVB_CTW"
+keywords:
+  - MITgcm
+  - coastal-trapped waves
+  - Sebastián Vizcaíno Bay
+  - Baja California
+  - numerical model configuration
+references:
+  - type: software
+    title: "MITgcm"
+    authors:
+      - name: "MITgcm contributors"
+    repository-code: "https://github.com/MITgcm/MITgcm"
+    version: "checkpoint69k-11-gdecd05a68"
