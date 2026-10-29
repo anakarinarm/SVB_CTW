@@ -30,7 +30,7 @@ def write_boundary(field: np.ndarray, outdir: Path, prefix: str) -> None:
 
 
 def main() -> None:
-    common = ROOT / "ctw_reruns" / "common_input"
+    common = ROOT / "input" / "common_input_512x612"
     outdir = common / "obcs_ts_from_initial_hydrography"
     outdir.mkdir(exist_ok=True)
     theta = np.fromfile(common / "feb_Tref_100zlev_512x612.bin", dtype=">f8").reshape(NR, NY, NX)

@@ -17,7 +17,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "input"
-COMMON = ROOT / "ctw_reruns" / "common_input"
+COMMON = ROOT / "input" / "common_input_512x612"
 
 NX, NY, NR = 512, 612, 100
 REC_SPACING_SECONDS = 1800

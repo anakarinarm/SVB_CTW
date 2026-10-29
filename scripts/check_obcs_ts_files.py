@@ -8,8 +8,8 @@ from pathlib import Path
 import numpy as np
 
 
-BASE = Path(__file__).resolve().parents[1] / "ctw_reruns" / "common_input" / "obcs_ts_from_initial_hydrography_16day"
-COMMON = Path(__file__).resolve().parents[1] / "ctw_reruns" / "common_input"
+BASE = Path(__file__).resolve().parents[1] / "input" / "common_input_512x612" / "obcs_ts_from_initial_hydrography_16day"
+COMMON = Path(__file__).resolve().parents[1] / "input" / "common_input_512x612"
 SPECS = {
     "OBWt.bin": (768, 100, 612),
     "OBWs.bin": (768, 100, 612),

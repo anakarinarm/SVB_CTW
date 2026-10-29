@@ -16,7 +16,7 @@ from netCDF4 import Dataset
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "input"
-BASE_COMMON = ROOT / "ctw_reruns" / "common_input"
+BASE_COMMON = ROOT / "input" / "common_input_512x612"
 OUT = INPUT / "telescoped_west64_south72"
 
 OLD_NX, OLD_NY, NX, NY, NR = 512, 612, 576, 684, 100

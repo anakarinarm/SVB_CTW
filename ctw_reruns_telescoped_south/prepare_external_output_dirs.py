@@ -1,1 +1,0 @@
-../scripts/prepare_external_output_dirs.py
