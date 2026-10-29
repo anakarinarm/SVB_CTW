@@ -1,0 +1,5 @@
+file,size_ok,sha256,sha256_matches_readme,wet_columns,wet_columns_ok,min_depth,min_wet_depth,land_zero_count,west_wet_rows,south_wet_cols,north_wet_cols
+bathy_realistic_minusSVB_FINAL.bin,True,40a81525448ee6fc7b8911f6290ce578252dbca8163a21cbf6f292ea3395bffe,False,204908,True,-4700.0,2.0,108436,612,479,73
+bathy_realistic_plusSVB_FINAL.bin,True,1cdef1431d83cdf914eac57fc807f4dbbc13ccb5e6bb8250827915f96759659e,False,211096,True,-4700.0,2.0,102248,612,479,73
+bathy_smooth30_minusSVB_FINAL.bin,True,184ed27093f28cfa343d44f01f81115d7018813f642da3125baf3ea1f78ffbfc,False,204908,True,-4700.0,2.0,108436,612,479,73
+bathy_smooth30_plusSVB_FINAL.bin,True,69954cffb4fa641a5c47b764ca4ef245bb7c3d7e20e44ede0851ededfdfb95dd,False,211096,True,-4700.0,2.0,102248,612,479,73

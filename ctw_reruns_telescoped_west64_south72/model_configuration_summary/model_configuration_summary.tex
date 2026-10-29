@@ -1,0 +1,149 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{MITgcm configuration summary for the CTW--SVB reruns}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Model domain and grid}
+The final rerun suite uses MITgcm on a spherical-polar C-grid with
+$N_x \times N_y \times N_r = 576 \times 684 \times 100$ grid cells.  The grid
+origin supplied to MITgcm is approximately
+\[
+(x_g,y_g)=(236.36437^\circ\mathrm{E},25.39553^\circ\mathrm{N}).
+\]
+This is the original $512 \times 612$ active grid augmented by 64 telescoped
+columns to the west and 72 telescoped rows to the south.  The added wet buffer
+is a flat \SI{4400}{m} abyssal plane with straight artificial coastlines.
+Horizontal spacing ranges from $0.0155945^\circ$--$0.0389862^\circ$ in
+longitude and $0.0135994^\circ$--$0.0339985^\circ$ in latitude.  The vertical
+grid has 100 levels and reaches \SI{4700}{m} depth.
+
+\section*{Bathymetry}
+The experiment suite uses four bathymetry files that differ only in the
+resolved topography and presence or absence of Sebasti\'an Vizca\'ino Bay (SVB):
+\texttt{Rplus} uses realistic bathymetry with SVB, \texttt{Rminus} uses
+realistic bathymetry with SVB removed, \texttt{Splus} uses smoothed bathymetry
+with SVB, and \texttt{Sminus} uses smoothed bathymetry with SVB removed.  The
+MITgcm bathymetry files are big-endian binary arrays with negative ocean depth
+and zero over land.
+
+The realistic +SVB bathymetry is the cleaned baseline bathymetry.  The -SVB
+members modify only the shelf/bay source geometry: the continental slope is
+preserved seaward of the shelf-break guide, and the 250-m shelf-break spike near
+$28.6^\circ$N is regularized to avoid an artificial land spike.  The smoothed
+members use the approved 30-km half-power native-grid local-tangent smoothing,
+not the historical repeated smoother.  Realistic and smoothed members retain the
+same wet/dry mask within each +SVB or -SVB pair, and the immediate coastal
+depths are held fixed so that the comparison isolates short-scale bathymetric
+roughness rather than coastline or partial-cell changes.
+
+For the west64/south72 reruns, these four finalized bathymetries were inserted
+into the expanded domain.  The added western and southern buffer regions are
+flat \SI{4400}{m} abyssal ocean at the open boundaries, with straight artificial
+coastlines.  The western added buffer is smoothly blended toward the local
+western-edge depths, and the southern added buffer is smoothly blended toward
+the first active-domain row, so the southwest, southeast, and northwest sponge
+corners are continuous.  In the northern buffer/taper band, existing wet cells
+continue the local depth from the row immediately south of the band while
+preserving the land mask and the configured north-boundary wet span.  The
+southwest added-buffer corner is additionally smoothed with a local 2-D
+wet-cell relaxation, and the northwest added-buffer corner uses a smoothed
+along-boundary profile while retaining a gradual northward transition.  The
+open-boundary bathymetry treatment in the finalized source bathymetries uses a
+15-cell flat normal-depth core with a 15-cell smooth transition on the west,
+south, and north boundaries.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/bathymetry_panels.pdf}
+\caption{Production bathymetries used by the four west64/south72 reruns and
+two diagnostic differences.  Depths are shown positive downward; land is gray.}
+\end{figure}
+
+\section*{Time stepping and output}
+The simulations start from rest at $t=0$ and run for \SI{1296000}{s}
+(15 days), with $\Delta t=\SI{60}{s}$.  Checkpoints are written every
+\SI{43200}{s} and model dumps every \SI{172800}{s}.  Diagnostics are
+written in MITgcm MDS binary format rather than MNC NetCDF.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+File prefix & Frequency & Variables \\
+\midrule
+\texttt{dyn3d\_avg} & \SI{1200}{s} averages &
+\texttt{UVEL}, \texttt{VVEL}, \texttt{WVEL}, \texttt{RHOAnoma}, \texttt{PHIHYD} \\
+\texttt{surf\_avg} & \SI{1200}{s} averages &
+\texttt{ETAN}, \texttt{PHI\_SURF} \\
+\texttt{surf\_snap} & \SI{1200}{s} snapshots &
+\texttt{ETAN}, \texttt{PHI\_SURF} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The 3-D diagnostics are saved on 75 vertical levels:
+\texttt{1--65, 67, 69, 71, 73, 75, 77, 79, 84, 90, 100}.
+
+\section*{Equation of state, initial conditions, and open boundaries}
+The runs use a linear equation of state with $\rho_0=\SI{999.8}{kg\,m^{-3}}$,
+$\alpha=2.0\times10^{-4}~^\circ\mathrm{C}^{-1}$, and
+$\beta=7.4\times10^{-4}$.  MITgcm reference values are set to
+$T_\mathrm{ref}=0^\circ\mathrm{C}$ and $S_\mathrm{ref}=35$, so that the
+linear equation of state is satisfied by constant reference values.  The
+initial temperature and salinity fields are vertically varying and horizontally
+uniform; the same profiles are prescribed at the open boundaries using OBCS
+temperature and salinity files.  No open-boundary sponge relaxation is applied
+to temperature or salinity.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/initial_profiles.pdf}
+\caption{Initial vertically varying, horizontally uniform temperature,
+salinity, and linear-equation-of-state density profiles.}
+\end{figure}
+
+\section*{Open boundaries and sponge}
+Open boundaries are active on the west, south, and north boundaries.  The OBCS
+masks are
+\texttt{OB\_Iwest = 684*1},
+\texttt{OB\_Jsouth = 543*1,33*0}, and
+\texttt{OB\_Jnorth = 137*-1,439*0}.  Orlanski radiation is enabled on all
+three open boundaries, with \texttt{cvelTimeScale=2000.0} and
+\texttt{CMAX=1.0}.  OBCS volume balance is enabled with unit balance factors
+on west, south, and north boundaries.
+
+A linear OBCS sponge is active for momentum only.  The sponge thickness is
+48 grid cells, with inner relaxation time scale \SI{43200}{s} and boundary
+relaxation time scale \SI{1800}{s} for both $u$ and $v$.  The sponge acts
+on west, south, and north boundaries and relaxes both east--west and north--south
+velocity components.  Temperature and salinity sponge switches are disabled.
+
+\section*{Forcing and experiment set}
+Wind stress is periodic with a \SI{1800}{s} forcing period and a
+\SI{1382400}{s} forcing cycle.  The forcing files prescribe zonal and
+meridional wind stress over the $576 \times 684$ domain.  The maximum wind
+stress magnitude over the full forcing cycle is
+\SI{0.08934}{N\,m^{-2}}, occurring at hour 3.0 of the
+forcing record.  The four experiments are \texttt{Rplus}, \texttt{Rminus},
+\texttt{Splus}, and \texttt{Sminus}, as described in the bathymetry section
+above.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\linewidth]{figures/windstress_max_map.pdf}
+\caption{Maximum wind-stress magnitude at each grid point over the forcing
+cycle.  Arrows show the wind-stress vector at the time of the domain-wide
+maximum.}
+\end{figure}
+
+\end{document}

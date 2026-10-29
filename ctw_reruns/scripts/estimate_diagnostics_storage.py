@@ -1,0 +1,1 @@
+../../scripts/estimate_diagnostics_storage.py

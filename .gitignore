@@ -1,0 +1,33 @@
+# Written by Claude, approved by KRM.
+# Track namelists, code, scripts, READMEs and small figures only.
+
+# binary inputs, model output, pickups, NetCDF
+*.bin
+*.data
+*.meta
+*.nc
+*.mat
+pickup*
+STDOUT.*
+STDERR.*
+*.mpirun.log
+launch.pid
+mnc_*/
+
+# builds and executables
+build*/
+mitgcmuv
+
+# large media and LaTeX by-products
+*.mp4
+*.pdf
+*.aux
+*.out
+model_configuration_summary/*.log
+
+# large CSV time series from the Gaussian-wind review
+ctw_reruns_telescoped_west64_south72/gaussian5d_review/forcing_timeseries.csv
+ctw_reruns_telescoped_west64_south72/gaussian5d_review/forcing_spectrum.csv
+
+__pycache__/
+.DS_Store

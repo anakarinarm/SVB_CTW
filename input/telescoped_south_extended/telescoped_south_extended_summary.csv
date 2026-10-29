@@ -1,0 +1,17 @@
+parameter,value
+nx,512
+ny,648
+old_ny,612
+extra_south_rows,36
+extra_south_degrees,0.4895782470703125
+extra_south_km_approx,54.34318542480469
+west_buffer_cells,48
+north_buffer_cells,40
+transition_cells,30
+flat_depth_m,4000.0
+south_wet_columns,479
+xgOrigin_data_value,237.12359380471906
+ygOrigin,26.510421752929688
+native_dy_deg,0.013599395751953125
+dely_min_deg,0.013599395751953116
+dely_max_deg,0.040798187255859375

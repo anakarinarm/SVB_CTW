@@ -1,0 +1,21 @@
+{
+  "run_days": 30,
+  "frequency_resolution_cpd": 0.03333333333333333,
+  "tc_seconds": 216000.0,
+  "sigma_seconds": 72000.0,
+  "original_binary_peak_N_m2": 0.08934072704405521,
+  "new_formula_peak_N_m2": 0.1,
+  "new_applied_peak_N_m2": 0.09999218780516783,
+  "power_ratio_at_1_cpd": 0.0010888274299377394,
+  "power_ratio_0p8_to_1p2_cpd": 0.0010977540301455784,
+  "vector_factorization_error_N_m2": 2.0816681711721685e-17,
+  "max_interpolation_error_first_10d_N_m2": 7.812194832174102e-06,
+  "wind_stress_impulse_N_s_m2": {
+    "original_binary_actual": 367.629076217366,
+    "original_equal_peak_0p1": 411.49102809078636,
+    "gaussian5d_applied": 18023.348489577034,
+    "gaussian5d_formula": 18023.36099081074
+  },
+  "impulse_ratio_gaussian_to_original_equal_peak": 43.80010075359549,
+  "impulse_ratio_gaussian_to_original_actual": 49.025905880525265
+}

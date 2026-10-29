@@ -1,0 +1,118 @@
+(PID.TID 0004.0001) W2_E2SETUP: number of Active Tiles =      96
+(PID.TID 0004.0001) W2_E2SETUP: number of Blank Tiles  =       0
+(PID.TID 0004.0001) W2_E2SETUP: Total number of Tiles  =      96
+(PID.TID 0004.0001) W2_SET_SINGLE_FACET: preDefTopol=  1 selected
+(PID.TID 0004.0001) W2_E2SETUP: Total number of Facets =       1
+(PID.TID 0004.0001) W2_SET_F2F_INDEX: index matrix for connected Facet-Edges:
+(PID.TID 0004.0001) W2_SET_MAP_TILES: tile mapping within facet and global Map:
+(PID.TID 0004.0001)  Global Map (IO): X-size=     512 , Y-size=     612
+(PID.TID 0004.0001) W2_SET_MAP_TILES: tile offset within facet and global Map:
+- facet  1 : X-size=   512 , Y-size=   612 ;      96 tiles (Tx,Ty=   8,  12)
+(PID.TID 0004.0001) W2_SET_MAP_CUMSUM: setting Facet Matrix for CUMUL-SUM
+(PID.TID 0004.0001) W2_SET_MAP_CUMSUM: done (skip Tile Matrix setting)
+(PID.TID 0004.0001) W2_SET_TILE2TILES: tile neighbours and index connection:
+(PID.TID 0004.0001) current Max.Nb.Neighbours (e.g., on tile    1 ) =  4
+(PID.TID 0004.0001) ===== W2 TILE TOPOLOGY =====
+(PID.TID 0004.0001)  TILE:     3 (bi,bj=   1   1 ), Nb of Neighbours =  4
+(PID.TID 0004.0001)     NEIGHBOUR  1 = TILE      11 (n=  2) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  2 = TILE      91 (n=  1) Comm = MSG (PROC=       8)
+(PID.TID 0004.0001)     NEIGHBOUR  3 = TILE       4 (n=  4) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  4 = TILE       2 (n=  3) Comm = MSG (PROC=       1)
+(PID.TID 0004.0001)  TILE:     4 (bi,bj=   2   1 ), Nb of Neighbours =  4
+(PID.TID 0004.0001)     NEIGHBOUR  1 = TILE      12 (n=  2) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  2 = TILE      92 (n=  1) Comm = MSG (PROC=       8)
+(PID.TID 0004.0001)     NEIGHBOUR  3 = TILE       5 (n=  4) Comm = MSG (PROC=       9)
+(PID.TID 0004.0001)     NEIGHBOUR  4 = TILE       3 (n=  3) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)  TILE:    11 (bi,bj=   1   2 ), Nb of Neighbours =  4
+(PID.TID 0004.0001)     NEIGHBOUR  1 = TILE      19 (n=  2) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  2 = TILE       3 (n=  1) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  3 = TILE      12 (n=  4) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  4 = TILE      10 (n=  3) Comm = MSG (PROC=       1)
+(PID.TID 0004.0001)  TILE:    12 (bi,bj=   2   2 ), Nb of Neighbours =  4
+(PID.TID 0004.0001)     NEIGHBOUR  1 = TILE      20 (n=  2) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  2 = TILE       4 (n=  1) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  3 = TILE      13 (n=  4) Comm = MSG (PROC=       9)
+(PID.TID 0004.0001)     NEIGHBOUR  4 = TILE      11 (n=  3) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)  TILE:    19 (bi,bj=   1   3 ), Nb of Neighbours =  4
+(PID.TID 0004.0001)     NEIGHBOUR  1 = TILE      27 (n=  2) Comm = MSG (PROC=       6)
+(PID.TID 0004.0001)     NEIGHBOUR  2 = TILE      11 (n=  1) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  3 = TILE      20 (n=  4) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  4 = TILE      18 (n=  3) Comm = MSG (PROC=       1)
+(PID.TID 0004.0001)  TILE:    20 (bi,bj=   2   3 ), Nb of Neighbours =  4
+(PID.TID 0004.0001)     NEIGHBOUR  1 = TILE      28 (n=  2) Comm = MSG (PROC=       6)
+(PID.TID 0004.0001)     NEIGHBOUR  2 = TILE      12 (n=  1) Comm = PUT (PROC=       5)
+(PID.TID 0004.0001)     NEIGHBOUR  3 = TILE      21 (n=  4) Comm = MSG (PROC=       9)
+(PID.TID 0004.0001)     NEIGHBOUR  4 = TILE      19 (n=  3) Comm = PUT (PROC=       5)
+Tile       3 (pr=       5) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       11 (pr=       5)
+Tile       3 (pr=       5) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       91 (pr=       8)
+Tile       3 (pr=       5) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile        4 (pr=       5)
+Tile       3 (pr=       5) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile        2 (pr=       1)
+Tile       4 (pr=       5) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       12 (pr=       5)
+Tile       4 (pr=       5) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       92 (pr=       8)
+Tile       4 (pr=       5) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile        5 (pr=       9)
+Tile       4 (pr=       5) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile        3 (pr=       5)
+Tile      11 (pr=       5) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       19 (pr=       5)
+Tile      11 (pr=       5) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile        3 (pr=       5)
+Tile      11 (pr=       5) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       12 (pr=       5)
+Tile      11 (pr=       5) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       10 (pr=       1)
+Tile      12 (pr=       5) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       20 (pr=       5)
+Tile      12 (pr=       5) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile        4 (pr=       5)
+Tile      12 (pr=       5) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       13 (pr=       9)
+Tile      12 (pr=       5) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       11 (pr=       5)
+Tile      19 (pr=       5) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       27 (pr=       6)
+Tile      19 (pr=       5) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       11 (pr=       5)
+Tile      19 (pr=       5) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       20 (pr=       5)
+Tile      19 (pr=       5) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       18 (pr=       1)
+Tile      20 (pr=       5) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       28 (pr=       6)
+Tile      20 (pr=       5) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       12 (pr=       5)
+Tile      20 (pr=       5) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       21 (pr=       9)
+Tile      20 (pr=       5) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       19 (pr=       5)
+Tile       3 (pr=       5) recv pts i=  -2:  67, j=  52:  54 from tile      11 (pr=       5)
+Tile       3 (pr=       5) recv pts i=  -2:  67, j=  -2:   0 from tile      91 (pr=       8)
+Tile       3 (pr=       5) recv pts i=  65:  67, j=  -2:  54 from tile       4 (pr=       5)
+Tile       3 (pr=       5) recv pts i=  -2:   0, j=  -2:  54 from tile       2 (pr=       1)
+Tile       4 (pr=       5) recv pts i=  -2:  67, j=  52:  54 from tile      12 (pr=       5)
+Tile       4 (pr=       5) recv pts i=  -2:  67, j=  -2:   0 from tile      92 (pr=       8)
+Tile       4 (pr=       5) recv pts i=  65:  67, j=  -2:  54 from tile       5 (pr=       9)
+Tile       4 (pr=       5) recv pts i=  -2:   0, j=  -2:  54 from tile       3 (pr=       5)
+Tile      11 (pr=       5) recv pts i=  -2:  67, j=  52:  54 from tile      19 (pr=       5)
+Tile      11 (pr=       5) recv pts i=  -2:  67, j=  -2:   0 from tile       3 (pr=       5)
+Tile      11 (pr=       5) recv pts i=  65:  67, j=  -2:  54 from tile      12 (pr=       5)
+Tile      11 (pr=       5) recv pts i=  -2:   0, j=  -2:  54 from tile      10 (pr=       1)
+Tile      12 (pr=       5) recv pts i=  -2:  67, j=  52:  54 from tile      20 (pr=       5)
+Tile      12 (pr=       5) recv pts i=  -2:  67, j=  -2:   0 from tile       4 (pr=       5)
+Tile      12 (pr=       5) recv pts i=  65:  67, j=  -2:  54 from tile      13 (pr=       9)
+Tile      12 (pr=       5) recv pts i=  -2:   0, j=  -2:  54 from tile      11 (pr=       5)
+Tile      19 (pr=       5) recv pts i=  -2:  67, j=  52:  54 from tile      27 (pr=       6)
+Tile      19 (pr=       5) recv pts i=  -2:  67, j=  -2:   0 from tile      11 (pr=       5)
+Tile      19 (pr=       5) recv pts i=  65:  67, j=  -2:  54 from tile      20 (pr=       5)
+Tile      19 (pr=       5) recv pts i=  -2:   0, j=  -2:  54 from tile      18 (pr=       1)
+Tile      20 (pr=       5) recv pts i=  -2:  67, j=  52:  54 from tile      28 (pr=       6)
+Tile      20 (pr=       5) recv pts i=  -2:  67, j=  -2:   0 from tile      12 (pr=       5)
+Tile      20 (pr=       5) recv pts i=  65:  67, j=  -2:  54 from tile      21 (pr=       9)
+Tile      20 (pr=       5) recv pts i=  -2:   0, j=  -2:  54 from tile      19 (pr=       5)
+(PID.TID 0004.0001) ===  End TOPOLOGY report ===

@@ -1,0 +1,18 @@
+{
+  "original_source": "CTW_SVB/input/upwelling_{zonal,merid}_halfgauss2hr_512x612.bin",
+  "production_record_zero_based": 6,
+  "gaussian_record_zero_based": 119,
+  "original_source_and_production_untapered_taux_N_m2": 0.04467036352202761,
+  "original_source_and_production_untapered_tauy_N_m2": -0.07737133921272323,
+  "gaussian_untapered_taux_N_m2": 0.049996093902583916,
+  "gaussian_untapered_tauy_N_m2": -0.08659577481925988,
+  "direction_degrees_counterclockwise_from_east": -60.0,
+  "direction": "southeast",
+  "zonal_sign_mismatch_cells": 0,
+  "meridional_sign_mismatch_cells": 0,
+  "gaussian_to_production_positive_scalar_at_compared_records": 1.11922290218055,
+  "maximum_spatial_component_error_after_positive_scaling_N_m2": 1.3877787807814457e-17,
+  "mitgcm_sign_convention_check": "external_fields_load.F interpolates zonalWindFile directly into fu and meridWindFile into fv; external_forcing_surf.F applies both with the same positive mass2rUnit factor.",
+  "animation_quivers": "Water velocity at model level 56 (495.7 m), not wind or surface velocity.",
+  "forcing_changed_during_check": false
+}

@@ -1,0 +1,1 @@
+../scripts/make_telescoped_west64_south72_inputs.py

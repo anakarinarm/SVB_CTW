@@ -1,0 +1,1 @@
+../scripts/setup_ctw_telescoped_south_extended_reruns.py

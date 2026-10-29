@@ -1,0 +1,59 @@
+{
+  "hFacC": {
+    "shape": [
+      100,
+      684,
+      576
+    ],
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "partial_cells": 268889,
+    "smallest_wet_fraction": 0.1
+  },
+  "connectivity": {
+    "surface_components": 1,
+    "wet_cells_outside_main_ocean": 0,
+    "changed_region_wet_cells": 4277,
+    "changed_region_wet_cells_disconnected": 0
+  },
+  "depth_reconstruction_max_error_m": 0.0,
+  "hFacW": {
+    "shape": [
+      100,
+      684,
+      576
+    ],
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "partial_cells": 267980,
+    "smallest_wet_fraction": 0.1
+  },
+  "hFacS": {
+    "shape": [
+      100,
+      684,
+      576
+    ],
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "partial_cells": 268223,
+    "smallest_wet_fraction": 0.1
+  },
+  "surface_face_connectivity": {
+    "components": 1,
+    "wet_cells_disconnected_by_closed_faces": 0,
+    "changed_region_wet_cells_disconnected": 0
+  },
+  "input_depth_vs_processed_depth_max_difference_m": 13.246289062500182,
+  "changed_bathymetry_cells": 8131,
+  "cells_dried_relative_to_Rplus": 3854,
+  "cells_wetted_relative_to_Rplus": 169,
+  "plot_crop": {
+    "x_start": 437,
+    "x_end": 576,
+    "y_start": 108,
+    "y_end": 298
+  },
+  "deep_plot_level_1based": 56,
+  "deep_plot_depth_m": 495.7
+}

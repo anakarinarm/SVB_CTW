@@ -1,0 +1,2 @@
+grid_nx,grid_ny,straight_south_last_wet_i,straight_south_coast_lon,west_active_rows,south_active_cols,north_active_cols,max_noSVB_change_seaward_smoothed_guide_m,max_noSVB_guide_adjustment_km,hFacMin,hFacMinDr_m,minimum_positive_depth_m
+512,612,478,-114.535400390625,612,479,71,0.0,23.127691665830756,0.1,2.0,2.0

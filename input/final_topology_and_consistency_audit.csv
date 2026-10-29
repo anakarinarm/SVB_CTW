@@ -1,0 +1,5 @@
+wet_columns,dangling_wet_columns,enclosed_dry_islands_size_1_2,near_land_dry_islands_size_3_5,case,mask_differences_input_vs_hFac
+211096,0,0,0,realistic_plusSVB,0
+211096,0,0,0,smooth30_plusSVB,0
+204908,0,0,0,realistic_minusSVB,0
+204908,0,0,0,smooth30_minusSVB,0

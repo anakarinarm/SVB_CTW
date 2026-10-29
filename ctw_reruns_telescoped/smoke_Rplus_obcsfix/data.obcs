@@ -1,0 +1,46 @@
+# Open-boundaries
+ &OBCS_PARM01
+ OB_Iwest = 612*1,
+ OB_Jsouth = 479*1,33*0,
+ OB_Jnorth = 73*-1,439*0,
+ insideOBmaskFile='../telescoped_input/inside_mask_allwet_TELEBUF.bin',
+ useOrlanskiWest=.TRUE.,
+ useOrlanskiSouth=.TRUE.,
+ useOrlanskiNorth=.TRUE.,
+ useOBCSsponge=.FALSE.,
+ useLinearSponge=.FALSE.,
+ OBCSsponge_W=.FALSE.,
+ OBCSsponge_S=.FALSE.,
+ OBCSsponge_N=.FALSE.,
+ OBCSsponge_UatEW=.FALSE.,
+ OBCSsponge_VatEW=.FALSE.,
+ OBCSsponge_UatNS=.FALSE.,
+ OBCSsponge_VatNS=.FALSE.,
+ OBCSsponge_Salt=.FALSE.,
+ OBCSsponge_Theta=.FALSE.,
+ useOBCSbalance=.TRUE.,
+ useOBCSprescribe=.TRUE.,
+ OBWtFile='../common_input/obcs_ts_from_initial_hydrography_16day/OBWt.bin',
+ OBStFile='../common_input/obcs_ts_from_initial_hydrography_16day/OBSt.bin',
+ OBNtFile='../common_input/obcs_ts_from_initial_hydrography_16day/OBNt.bin',
+ OBWsFile='../common_input/obcs_ts_from_initial_hydrography_16day/OBWs.bin',
+ OBSsFile='../common_input/obcs_ts_from_initial_hydrography_16day/OBSs.bin',
+ OBNsFile='../common_input/obcs_ts_from_initial_hydrography_16day/OBNs.bin',
+ OBCS_balanceFacW=1.,
+ OBCS_balanceFacS=1.,
+ OBCS_balanceFacN=1.,
+ OBCS_monitorFreq=1200.,
+ &
+
+ &OBCS_PARM02
+ cvelTimeScale=2000.0,
+ CMAX=1.0,
+ &
+
+ &OBCS_PARM03
+ spongeThickness=48,
+ Urelaxobcsinner=43200.E0,
+ Vrelaxobcsinner=43200.E0,
+ Urelaxobcsbound=1800.E0,
+ Vrelaxobcsbound=1800.E0,
+ &

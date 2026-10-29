@@ -1,0 +1,8 @@
+# NetCDF/MNC output
+ &MNC_01
+ mnc_use_outdir=.TRUE.,
+ mnc_outdir_str='mnc_Rminus_',
+ monitor_mnc=.FALSE.,
+ pickup_write_mnc=.FALSE.,
+ pickup_read_mnc=.FALSE.,
+ &

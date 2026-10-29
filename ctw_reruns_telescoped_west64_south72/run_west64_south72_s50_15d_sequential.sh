@@ -1,0 +1,1 @@
+../scripts/run_west64_south72_s50_15d_sequential.sh

@@ -1,0 +1,1 @@
+../scripts/setup_ctw_telescoped_reruns.py

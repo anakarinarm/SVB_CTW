@@ -1,0 +1,700 @@
+(PID.TID 0000.0001) W2_E2SETUP: number of Active Tiles =      96
+(PID.TID 0000.0001) W2_E2SETUP: number of Blank Tiles  =       0
+(PID.TID 0000.0001) W2_E2SETUP: Total number of Tiles  =      96
+(PID.TID 0000.0001) W2_SET_SINGLE_FACET: preDefTopol=  1 selected
+(PID.TID 0000.0001) W2_E2SETUP: Total number of Facets =       1
+(PID.TID 0000.0001) W2_SET_F2F_INDEX: index matrix for connected Facet-Edges:
+  N.Edge Facet  1 <-- S.Edge Facet  1 : pij=  1  0  0  1 ; oi,oj=     0   612
+  S.Edge Facet  1 <-- N.Edge Facet  1 : pij=  1  0  0  1 ; oi,oj=     0  -612
+  E.Edge Facet  1 <-- W.Edge Facet  1 : pij=  1  0  0  1 ; oi,oj=   512     0
+  W.Edge Facet  1 <-- E.Edge Facet  1 : pij=  1  0  0  1 ; oi,oj=  -512     0
+(PID.TID 0000.0001) W2_SET_MAP_TILES: tile mapping within facet and global Map:
+(PID.TID 0000.0001)  Global Map (IO): X-size=     512 , Y-size=     612
+(PID.TID 0000.0001) W2_SET_MAP_TILES: tile offset within facet and global Map:
+- facet  1 : X-size=   512 , Y-size=   612 ;      96 tiles (Tx,Ty=   8,  12)
+  tile       1 on facet  1 (  1,  1): offset=    0    0 ; on Glob.Map=       1       1
+  tile       2 on facet  1 (  2,  1): offset=   64    0 ; on Glob.Map=      65       1
+  tile       3 on facet  1 (  3,  1): offset=  128    0 ; on Glob.Map=     129       1
+  tile       4 on facet  1 (  4,  1): offset=  192    0 ; on Glob.Map=     193       1
+  tile       5 on facet  1 (  5,  1): offset=  256    0 ; on Glob.Map=     257       1
+  tile       6 on facet  1 (  6,  1): offset=  320    0 ; on Glob.Map=     321       1
+  tile       7 on facet  1 (  7,  1): offset=  384    0 ; on Glob.Map=     385       1
+  tile       8 on facet  1 (  8,  1): offset=  448    0 ; on Glob.Map=     449       1
+  tile       9 on facet  1 (  1,  2): offset=    0   51 ; on Glob.Map=       1      52
+  tile      10 on facet  1 (  2,  2): offset=   64   51 ; on Glob.Map=      65      52
+  tile      11 on facet  1 (  3,  2): offset=  128   51 ; on Glob.Map=     129      52
+  tile      12 on facet  1 (  4,  2): offset=  192   51 ; on Glob.Map=     193      52
+  tile      13 on facet  1 (  5,  2): offset=  256   51 ; on Glob.Map=     257      52
+  tile      14 on facet  1 (  6,  2): offset=  320   51 ; on Glob.Map=     321      52
+  tile      15 on facet  1 (  7,  2): offset=  384   51 ; on Glob.Map=     385      52
+  tile      16 on facet  1 (  8,  2): offset=  448   51 ; on Glob.Map=     449      52
+  tile      17 on facet  1 (  1,  3): offset=    0  102 ; on Glob.Map=       1     103
+  tile      18 on facet  1 (  2,  3): offset=   64  102 ; on Glob.Map=      65     103
+  tile      19 on facet  1 (  3,  3): offset=  128  102 ; on Glob.Map=     129     103
+  tile      20 on facet  1 (  4,  3): offset=  192  102 ; on Glob.Map=     193     103
+  tile      21 on facet  1 (  5,  3): offset=  256  102 ; on Glob.Map=     257     103
+  tile      22 on facet  1 (  6,  3): offset=  320  102 ; on Glob.Map=     321     103
+  tile      23 on facet  1 (  7,  3): offset=  384  102 ; on Glob.Map=     385     103
+  tile      24 on facet  1 (  8,  3): offset=  448  102 ; on Glob.Map=     449     103
+  tile      25 on facet  1 (  1,  4): offset=    0  153 ; on Glob.Map=       1     154
+  tile      26 on facet  1 (  2,  4): offset=   64  153 ; on Glob.Map=      65     154
+  tile      27 on facet  1 (  3,  4): offset=  128  153 ; on Glob.Map=     129     154
+  tile      28 on facet  1 (  4,  4): offset=  192  153 ; on Glob.Map=     193     154
+  tile      29 on facet  1 (  5,  4): offset=  256  153 ; on Glob.Map=     257     154
+  tile      30 on facet  1 (  6,  4): offset=  320  153 ; on Glob.Map=     321     154
+  tile      31 on facet  1 (  7,  4): offset=  384  153 ; on Glob.Map=     385     154
+  tile      32 on facet  1 (  8,  4): offset=  448  153 ; on Glob.Map=     449     154
+  tile      33 on facet  1 (  1,  5): offset=    0  204 ; on Glob.Map=       1     205
+  tile      34 on facet  1 (  2,  5): offset=   64  204 ; on Glob.Map=      65     205
+  tile      35 on facet  1 (  3,  5): offset=  128  204 ; on Glob.Map=     129     205
+  tile      36 on facet  1 (  4,  5): offset=  192  204 ; on Glob.Map=     193     205
+  tile      37 on facet  1 (  5,  5): offset=  256  204 ; on Glob.Map=     257     205
+  tile      38 on facet  1 (  6,  5): offset=  320  204 ; on Glob.Map=     321     205
+  tile      39 on facet  1 (  7,  5): offset=  384  204 ; on Glob.Map=     385     205
+  tile      40 on facet  1 (  8,  5): offset=  448  204 ; on Glob.Map=     449     205
+  tile      41 on facet  1 (  1,  6): offset=    0  255 ; on Glob.Map=       1     256
+  tile      42 on facet  1 (  2,  6): offset=   64  255 ; on Glob.Map=      65     256
+  tile      43 on facet  1 (  3,  6): offset=  128  255 ; on Glob.Map=     129     256
+  tile      44 on facet  1 (  4,  6): offset=  192  255 ; on Glob.Map=     193     256
+  tile      45 on facet  1 (  5,  6): offset=  256  255 ; on Glob.Map=     257     256
+  tile      46 on facet  1 (  6,  6): offset=  320  255 ; on Glob.Map=     321     256
+  tile      47 on facet  1 (  7,  6): offset=  384  255 ; on Glob.Map=     385     256
+  tile      48 on facet  1 (  8,  6): offset=  448  255 ; on Glob.Map=     449     256
+  tile      49 on facet  1 (  1,  7): offset=    0  306 ; on Glob.Map=       1     307
+  tile      50 on facet  1 (  2,  7): offset=   64  306 ; on Glob.Map=      65     307
+  tile      51 on facet  1 (  3,  7): offset=  128  306 ; on Glob.Map=     129     307
+  tile      52 on facet  1 (  4,  7): offset=  192  306 ; on Glob.Map=     193     307
+  tile      53 on facet  1 (  5,  7): offset=  256  306 ; on Glob.Map=     257     307
+  tile      54 on facet  1 (  6,  7): offset=  320  306 ; on Glob.Map=     321     307
+  tile      55 on facet  1 (  7,  7): offset=  384  306 ; on Glob.Map=     385     307
+  tile      56 on facet  1 (  8,  7): offset=  448  306 ; on Glob.Map=     449     307
+  tile      57 on facet  1 (  1,  8): offset=    0  357 ; on Glob.Map=       1     358
+  tile      58 on facet  1 (  2,  8): offset=   64  357 ; on Glob.Map=      65     358
+  tile      59 on facet  1 (  3,  8): offset=  128  357 ; on Glob.Map=     129     358
+  tile      60 on facet  1 (  4,  8): offset=  192  357 ; on Glob.Map=     193     358
+  tile      61 on facet  1 (  5,  8): offset=  256  357 ; on Glob.Map=     257     358
+  tile      62 on facet  1 (  6,  8): offset=  320  357 ; on Glob.Map=     321     358
+  tile      63 on facet  1 (  7,  8): offset=  384  357 ; on Glob.Map=     385     358
+  tile      64 on facet  1 (  8,  8): offset=  448  357 ; on Glob.Map=     449     358
+  tile      65 on facet  1 (  1,  9): offset=    0  408 ; on Glob.Map=       1     409
+  tile      66 on facet  1 (  2,  9): offset=   64  408 ; on Glob.Map=      65     409
+  tile      67 on facet  1 (  3,  9): offset=  128  408 ; on Glob.Map=     129     409
+  tile      68 on facet  1 (  4,  9): offset=  192  408 ; on Glob.Map=     193     409
+  tile      69 on facet  1 (  5,  9): offset=  256  408 ; on Glob.Map=     257     409
+  tile      70 on facet  1 (  6,  9): offset=  320  408 ; on Glob.Map=     321     409
+  tile      71 on facet  1 (  7,  9): offset=  384  408 ; on Glob.Map=     385     409
+  tile      72 on facet  1 (  8,  9): offset=  448  408 ; on Glob.Map=     449     409
+  tile      73 on facet  1 (  1, 10): offset=    0  459 ; on Glob.Map=       1     460
+  tile      74 on facet  1 (  2, 10): offset=   64  459 ; on Glob.Map=      65     460
+  tile      75 on facet  1 (  3, 10): offset=  128  459 ; on Glob.Map=     129     460
+  tile      76 on facet  1 (  4, 10): offset=  192  459 ; on Glob.Map=     193     460
+  tile      77 on facet  1 (  5, 10): offset=  256  459 ; on Glob.Map=     257     460
+  tile      78 on facet  1 (  6, 10): offset=  320  459 ; on Glob.Map=     321     460
+  tile      79 on facet  1 (  7, 10): offset=  384  459 ; on Glob.Map=     385     460
+  tile      80 on facet  1 (  8, 10): offset=  448  459 ; on Glob.Map=     449     460
+  tile      81 on facet  1 (  1, 11): offset=    0  510 ; on Glob.Map=       1     511
+  tile      82 on facet  1 (  2, 11): offset=   64  510 ; on Glob.Map=      65     511
+  tile      83 on facet  1 (  3, 11): offset=  128  510 ; on Glob.Map=     129     511
+  tile      84 on facet  1 (  4, 11): offset=  192  510 ; on Glob.Map=     193     511
+  tile      85 on facet  1 (  5, 11): offset=  256  510 ; on Glob.Map=     257     511
+  tile      86 on facet  1 (  6, 11): offset=  320  510 ; on Glob.Map=     321     511
+  tile      87 on facet  1 (  7, 11): offset=  384  510 ; on Glob.Map=     385     511
+  tile      88 on facet  1 (  8, 11): offset=  448  510 ; on Glob.Map=     449     511
+  tile      89 on facet  1 (  1, 12): offset=    0  561 ; on Glob.Map=       1     562
+  tile      90 on facet  1 (  2, 12): offset=   64  561 ; on Glob.Map=      65     562
+  tile      91 on facet  1 (  3, 12): offset=  128  561 ; on Glob.Map=     129     562
+  tile      92 on facet  1 (  4, 12): offset=  192  561 ; on Glob.Map=     193     562
+  tile      93 on facet  1 (  5, 12): offset=  256  561 ; on Glob.Map=     257     562
+  tile      94 on facet  1 (  6, 12): offset=  320  561 ; on Glob.Map=     321     562
+  tile      95 on facet  1 (  7, 12): offset=  384  561 ; on Glob.Map=     385     562
+  tile      96 on facet  1 (  8, 12): offset=  448  561 ; on Glob.Map=     449     562
+(PID.TID 0000.0001) W2_SET_MAP_CUMSUM: setting Facet Matrix for CUMUL-SUM
+ Facet Matrix for CUMUL-SUM (nFacets=   1, nActive=   1 ):
+- facet  1 :  0  0 ,
+(PID.TID 0000.0001) W2_SET_MAP_CUMSUM: done (skip Tile Matrix setting)
+(PID.TID 0000.0001) W2_SET_TILE2TILES: tile neighbours and index connection:
+Tile       1 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 1
+ ns:  1 it=       9, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      89, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       2, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       8, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       2 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 0
+ ns:  1 it=      10, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      90, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       3, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       1, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       3 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 0
+ ns:  1 it=      11, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      91, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       4, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       2, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       4 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 0
+ ns:  1 it=      12, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      92, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       5, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       3, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       5 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 0
+ ns:  1 it=      13, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      93, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       6, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       4, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       6 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 0
+ ns:  1 it=      14, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      94, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       7, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       5, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       7 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 0 , W= 0
+ ns:  1 it=      15, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      95, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       8, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       6, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       8 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 1 , E= 1 , W= 0
+ ns:  1 it=      16, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      96, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       1, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       7, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile       9 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      17, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       1, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      10, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      16, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      10 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      18, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       2, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      11, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=       9, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      11 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      19, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       3, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      12, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      10, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      12 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      20, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       4, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      13, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      11, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      13 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      21, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       5, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      14, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      12, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      14 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      22, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       6, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      15, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      13, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      15 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      23, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       7, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      16, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      14, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      16 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      24, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       8, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=       9, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      15, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      17 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      25, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=       9, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      18, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      24, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      18 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      26, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      10, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      19, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      17, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      19 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      27, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      11, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      20, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      18, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      20 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      28, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      12, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      21, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      19, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      21 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      29, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      13, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      22, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      20, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      22 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      30, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      14, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      23, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      21, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      23 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      31, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      15, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      24, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      22, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      24 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      32, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      16, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      17, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      23, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      25 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      33, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      17, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      26, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      32, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      26 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      34, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      18, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      27, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      25, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      27 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      35, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      19, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      28, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      26, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      28 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      36, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      20, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      29, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      27, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      29 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      37, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      21, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      30, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      28, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      30 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      38, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      22, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      31, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      29, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      31 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      39, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      23, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      32, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      30, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      32 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      40, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      24, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      25, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      31, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      33 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      41, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      25, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      34, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      40, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      34 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      42, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      26, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      35, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      33, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      35 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      43, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      27, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      36, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      34, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      36 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      44, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      28, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      37, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      35, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      37 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      45, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      29, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      38, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      36, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      38 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      46, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      30, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      39, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      37, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      39 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      47, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      31, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      40, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      38, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      40 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      48, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      32, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      33, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      39, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      41 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      49, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      33, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      42, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      48, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      42 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      50, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      34, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      43, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      41, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      43 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      51, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      35, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      44, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      42, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      44 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      52, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      36, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      45, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      43, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      45 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      53, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      37, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      46, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      44, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      46 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      54, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      38, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      47, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      45, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      47 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      55, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      39, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      48, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      46, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      48 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      56, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      40, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      41, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      47, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      49 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      57, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      41, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      50, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      56, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      50 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      58, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      42, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      51, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      49, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      51 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      59, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      43, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      52, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      50, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      52 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      60, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      44, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      53, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      51, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      53 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      61, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      45, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      54, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      52, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      54 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      62, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      46, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      55, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      53, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      55 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      63, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      47, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      56, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      54, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      56 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      64, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      48, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      49, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      55, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      57 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      65, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      49, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      58, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      64, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      58 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      66, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      50, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      59, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      57, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      59 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      67, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      51, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      60, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      58, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      60 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      68, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      52, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      61, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      59, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      61 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      69, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      53, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      62, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      60, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      62 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      70, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      54, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      63, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      61, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      63 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      71, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      55, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      64, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      62, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      64 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      72, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      56, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      57, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      63, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      65 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      73, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      57, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      66, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      72, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      66 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      74, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      58, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      67, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      65, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      67 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      75, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      59, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      68, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      66, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      68 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      76, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      60, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      69, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      67, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      69 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      77, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      61, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      70, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      68, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      70 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      78, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      62, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      71, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      69, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      71 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      79, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      63, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      72, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      70, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      72 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      80, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      64, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      65, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      71, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      73 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      81, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      65, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      74, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      80, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      74 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      82, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      66, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      75, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      73, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      75 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      83, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      67, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      76, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      74, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      76 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      84, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      68, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      77, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      75, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      77 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      85, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      69, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      78, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      76, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      78 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      86, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      70, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      79, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      77, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      79 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      87, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      71, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      80, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      78, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      80 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      88, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      72, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      73, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      79, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      81 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 1
+ ns:  1 it=      89, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      73, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      82, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      88, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      82 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      90, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      74, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      83, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      81, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      83 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      91, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      75, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      84, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      82, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      84 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      92, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      76, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      85, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      83, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      85 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      93, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      77, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      86, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      84, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      86 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      94, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      78, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      87, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      85, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      87 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 0 , W= 0
+ ns:  1 it=      95, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      79, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      88, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      86, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      88 : nbNeighb=  4 ; is-at-Facet-Edge: N= 0 , S= 0 , E= 1 , W= 0
+ ns:  1 it=      96, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      80, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      81, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      87, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      89 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 1
+ ns:  1 it=       1, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      81, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      90, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      96, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      90 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 0
+ ns:  1 it=       2, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      82, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      91, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      89, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      91 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 0
+ ns:  1 it=       3, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      83, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      92, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      90, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      92 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 0
+ ns:  1 it=       4, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      84, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      93, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      91, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      93 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 0
+ ns:  1 it=       5, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      85, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      94, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      92, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      94 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 0
+ ns:  1 it=       6, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      86, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      95, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      93, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      95 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 0 , W= 0
+ ns:  1 it=       7, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      87, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      96, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      94, iLo,iHi=     0     0, jLo,jHi=     0    52
+Tile      96 : nbNeighb=  4 ; is-at-Facet-Edge: N= 1 , S= 0 , E= 1 , W= 0
+ ns:  1 it=       8, iLo,iHi=     0    65, jLo,jHi=    52    52
+ ns:  2 it=      88, iLo,iHi=     0    65, jLo,jHi=     0     0
+ ns:  3 it=      89, iLo,iHi=    65    65, jLo,jHi=     0    52
+ ns:  4 it=      95, iLo,iHi=     0     0, jLo,jHi=     0    52
+(PID.TID 0000.0001) current Max.Nb.Neighbours (e.g., on tile    1 ) =  4
+(PID.TID 0000.0001) ===== W2 TILE TOPOLOGY =====
+(PID.TID 0000.0001)  TILE:     1 (bi,bj=   1   1 ), Nb of Neighbours =  4
+(PID.TID 0000.0001)     NEIGHBOUR  1 = TILE       9 (n=  2) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  2 = TILE      89 (n=  1) Comm = MSG (PROC=       4)
+(PID.TID 0000.0001)     NEIGHBOUR  3 = TILE       2 (n=  4) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  4 = TILE       8 (n=  3) Comm = MSG (PROC=      13)
+(PID.TID 0000.0001)  TILE:     2 (bi,bj=   2   1 ), Nb of Neighbours =  4
+(PID.TID 0000.0001)     NEIGHBOUR  1 = TILE      10 (n=  2) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  2 = TILE      90 (n=  1) Comm = MSG (PROC=       4)
+(PID.TID 0000.0001)     NEIGHBOUR  3 = TILE       3 (n=  4) Comm = MSG (PROC=       5)
+(PID.TID 0000.0001)     NEIGHBOUR  4 = TILE       1 (n=  3) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)  TILE:     9 (bi,bj=   1   2 ), Nb of Neighbours =  4
+(PID.TID 0000.0001)     NEIGHBOUR  1 = TILE      17 (n=  2) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  2 = TILE       1 (n=  1) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  3 = TILE      10 (n=  4) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  4 = TILE      16 (n=  3) Comm = MSG (PROC=      13)
+(PID.TID 0000.0001)  TILE:    10 (bi,bj=   2   2 ), Nb of Neighbours =  4
+(PID.TID 0000.0001)     NEIGHBOUR  1 = TILE      18 (n=  2) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  2 = TILE       2 (n=  1) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  3 = TILE      11 (n=  4) Comm = MSG (PROC=       5)
+(PID.TID 0000.0001)     NEIGHBOUR  4 = TILE       9 (n=  3) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)  TILE:    17 (bi,bj=   1   3 ), Nb of Neighbours =  4
+(PID.TID 0000.0001)     NEIGHBOUR  1 = TILE      25 (n=  2) Comm = MSG (PROC=       2)
+(PID.TID 0000.0001)     NEIGHBOUR  2 = TILE       9 (n=  1) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  3 = TILE      18 (n=  4) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  4 = TILE      24 (n=  3) Comm = MSG (PROC=      13)
+(PID.TID 0000.0001)  TILE:    18 (bi,bj=   2   3 ), Nb of Neighbours =  4
+(PID.TID 0000.0001)     NEIGHBOUR  1 = TILE      26 (n=  2) Comm = MSG (PROC=       2)
+(PID.TID 0000.0001)     NEIGHBOUR  2 = TILE      10 (n=  1) Comm = PUT (PROC=       1)
+(PID.TID 0000.0001)     NEIGHBOUR  3 = TILE      19 (n=  4) Comm = MSG (PROC=       5)
+(PID.TID 0000.0001)     NEIGHBOUR  4 = TILE      17 (n=  3) Comm = PUT (PROC=       1)
+Tile       1 (pr=       1) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile        9 (pr=       1)
+Tile       1 (pr=       1) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       89 (pr=       4)
+Tile       1 (pr=       1) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile        2 (pr=       1)
+Tile       1 (pr=       1) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile        8 (pr=      13)
+Tile       2 (pr=       1) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       10 (pr=       1)
+Tile       2 (pr=       1) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       90 (pr=       4)
+Tile       2 (pr=       1) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile        3 (pr=       5)
+Tile       2 (pr=       1) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile        1 (pr=       1)
+Tile       9 (pr=       1) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       17 (pr=       1)
+Tile       9 (pr=       1) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile        1 (pr=       1)
+Tile       9 (pr=       1) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       10 (pr=       1)
+Tile       9 (pr=       1) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       16 (pr=      13)
+Tile      10 (pr=       1) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       18 (pr=       1)
+Tile      10 (pr=       1) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile        2 (pr=       1)
+Tile      10 (pr=       1) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       11 (pr=       5)
+Tile      10 (pr=       1) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile        9 (pr=       1)
+Tile      17 (pr=       1) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       25 (pr=       2)
+Tile      17 (pr=       1) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile        9 (pr=       1)
+Tile      17 (pr=       1) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       18 (pr=       1)
+Tile      17 (pr=       1) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       24 (pr=      13)
+Tile      18 (pr=       1) sends pts i=  -2:  67, j=  49:  51
+                              to pts i=  -2:  67, j=  -2:   0 in tile       26 (pr=       2)
+Tile      18 (pr=       1) sends pts i=  -2:  67, j=   1:   3
+                              to pts i=  -2:  67, j=  52:  54 in tile       10 (pr=       1)
+Tile      18 (pr=       1) sends pts i=  62:  64, j=  -2:  54
+                              to pts i=  -2:   0, j=  -2:  54 in tile       19 (pr=       5)
+Tile      18 (pr=       1) sends pts i=   1:   3, j=  -2:  54
+                              to pts i=  65:  67, j=  -2:  54 in tile       17 (pr=       1)
+Tile       1 (pr=       1) recv pts i=  -2:  67, j=  52:  54 from tile       9 (pr=       1)
+Tile       1 (pr=       1) recv pts i=  -2:  67, j=  -2:   0 from tile      89 (pr=       4)
+Tile       1 (pr=       1) recv pts i=  65:  67, j=  -2:  54 from tile       2 (pr=       1)
+Tile       1 (pr=       1) recv pts i=  -2:   0, j=  -2:  54 from tile       8 (pr=      13)
+Tile       2 (pr=       1) recv pts i=  -2:  67, j=  52:  54 from tile      10 (pr=       1)
+Tile       2 (pr=       1) recv pts i=  -2:  67, j=  -2:   0 from tile      90 (pr=       4)
+Tile       2 (pr=       1) recv pts i=  65:  67, j=  -2:  54 from tile       3 (pr=       5)
+Tile       2 (pr=       1) recv pts i=  -2:   0, j=  -2:  54 from tile       1 (pr=       1)
+Tile       9 (pr=       1) recv pts i=  -2:  67, j=  52:  54 from tile      17 (pr=       1)
+Tile       9 (pr=       1) recv pts i=  -2:  67, j=  -2:   0 from tile       1 (pr=       1)
+Tile       9 (pr=       1) recv pts i=  65:  67, j=  -2:  54 from tile      10 (pr=       1)
+Tile       9 (pr=       1) recv pts i=  -2:   0, j=  -2:  54 from tile      16 (pr=      13)
+Tile      10 (pr=       1) recv pts i=  -2:  67, j=  52:  54 from tile      18 (pr=       1)
+Tile      10 (pr=       1) recv pts i=  -2:  67, j=  -2:   0 from tile       2 (pr=       1)
+Tile      10 (pr=       1) recv pts i=  65:  67, j=  -2:  54 from tile      11 (pr=       5)
+Tile      10 (pr=       1) recv pts i=  -2:   0, j=  -2:  54 from tile       9 (pr=       1)
+Tile      17 (pr=       1) recv pts i=  -2:  67, j=  52:  54 from tile      25 (pr=       2)
+Tile      17 (pr=       1) recv pts i=  -2:  67, j=  -2:   0 from tile       9 (pr=       1)
+Tile      17 (pr=       1) recv pts i=  65:  67, j=  -2:  54 from tile      18 (pr=       1)
+Tile      17 (pr=       1) recv pts i=  -2:   0, j=  -2:  54 from tile      24 (pr=      13)
+Tile      18 (pr=       1) recv pts i=  -2:  67, j=  52:  54 from tile      26 (pr=       2)
+Tile      18 (pr=       1) recv pts i=  -2:  67, j=  -2:   0 from tile      10 (pr=       1)
+Tile      18 (pr=       1) recv pts i=  65:  67, j=  -2:  54 from tile      19 (pr=       5)
+Tile      18 (pr=       1) recv pts i=  -2:   0, j=  -2:  54 from tile      17 (pr=       1)
+(PID.TID 0000.0001) ===  End TOPOLOGY report ===

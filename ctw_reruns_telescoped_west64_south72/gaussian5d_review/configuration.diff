@@ -1,0 +1,104 @@
+--- Rplus/data
++++ Rplus_G5d/data
+@@ -38,7 +38,7 @@
+ # Time stepping parameters
+  &PARM03
+  startTime=0.,
+- endTime=1296000.,
++ endTime=2592000.,
+ # pickupSuff='ckptB',
+  nIter0=0,
+  deltaT=60.,
+@@ -48,7 +48,7 @@
+  monitorSelect=2,
+  periodicExternalForcing=.TRUE.,
+  externForcingPeriod=1800.,
+- externForcingCycle=1382400.,
++ externForcingCycle=2678400.,
+  &
+ 
+ # Gridding parameters
+@@ -74,8 +74,8 @@
+ 
+  &PARM05
+  bathyFile='../west_south_input/bathy_realistic_plusSVB_W64S72.bin',
+- meridWindFile='../west_south_input/upwelling_merid_halfgauss2hr_16day_576x684_W64S72.bin',
+- zonalWindFile='../west_south_input/upwelling_zonal_halfgauss2hr_16day_576x684_W64S72.bin',
++ meridWindFile='../gaussian5d_input/upwelling_merid_G5d_31day_576x684_W64S72.bin',
++ zonalWindFile='../gaussian5d_input/upwelling_zonal_G5d_31day_576x684_W64S72.bin',
+  hydrogThetaFile='../west_south_input/feb_Tref_100zlev_576x684_W64S72.bin',
+  hydrogSaltFile='../west_south_input/feb_Sref_100zlev_576x684_W64S72.bin',
+  &
+--- Rplus/data.obcs
++++ Rplus_G5d/data.obcs
+@@ -19,12 +19,12 @@
+  OBCSsponge_Theta=.FALSE.,
+  useOBCSbalance=.TRUE.,
+  useOBCSprescribe=.TRUE.,
+- OBWtFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBWt.bin',
+- OBStFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBSt.bin',
+- OBNtFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBNt.bin',
+- OBWsFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBWs.bin',
+- OBSsFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBSs.bin',
+- OBNsFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBNs.bin',
++ OBWtFile='../gaussian5d_input/obcs_31day/OBWt.bin',
++ OBStFile='../gaussian5d_input/obcs_31day/OBSt.bin',
++ OBNtFile='../gaussian5d_input/obcs_31day/OBNt.bin',
++ OBWsFile='../gaussian5d_input/obcs_31day/OBWs.bin',
++ OBSsFile='../gaussian5d_input/obcs_31day/OBSs.bin',
++ OBNsFile='../gaussian5d_input/obcs_31day/OBNs.bin',
+  OBCS_balanceFacW=1.,
+  OBCS_balanceFacS=1.,
+  OBCS_balanceFacN=1.,
+--- Rminus/data
++++ Rminus_G5d/data
+@@ -38,7 +38,7 @@
+ # Time stepping parameters
+  &PARM03
+  startTime=0.,
+- endTime=1296000.,
++ endTime=2592000.,
+ # pickupSuff='ckptB',
+  nIter0=0,
+  deltaT=60.,
+@@ -48,7 +48,7 @@
+  monitorSelect=2,
+  periodicExternalForcing=.TRUE.,
+  externForcingPeriod=1800.,
+- externForcingCycle=1382400.,
++ externForcingCycle=2678400.,
+  &
+ 
+ # Gridding parameters
+@@ -74,8 +74,8 @@
+ 
+  &PARM05
+  bathyFile='../west_south_input/bathy_realistic_minusSVB_W64S72.bin',
+- meridWindFile='../west_south_input/upwelling_merid_halfgauss2hr_16day_576x684_W64S72.bin',
+- zonalWindFile='../west_south_input/upwelling_zonal_halfgauss2hr_16day_576x684_W64S72.bin',
++ meridWindFile='../gaussian5d_input/upwelling_merid_G5d_31day_576x684_W64S72.bin',
++ zonalWindFile='../gaussian5d_input/upwelling_zonal_G5d_31day_576x684_W64S72.bin',
+  hydrogThetaFile='../west_south_input/feb_Tref_100zlev_576x684_W64S72.bin',
+  hydrogSaltFile='../west_south_input/feb_Sref_100zlev_576x684_W64S72.bin',
+  &
+--- Rminus/data.obcs
++++ Rminus_G5d/data.obcs
+@@ -19,12 +19,12 @@
+  OBCSsponge_Theta=.FALSE.,
+  useOBCSbalance=.TRUE.,
+  useOBCSprescribe=.TRUE.,
+- OBWtFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBWt.bin',
+- OBStFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBSt.bin',
+- OBNtFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBNt.bin',
+- OBWsFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBWs.bin',
+- OBSsFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBSs.bin',
+- OBNsFile='../west_south_input/obcs_ts_from_initial_hydrography_16day/OBNs.bin',
++ OBWtFile='../gaussian5d_input/obcs_31day/OBWt.bin',
++ OBStFile='../gaussian5d_input/obcs_31day/OBSt.bin',
++ OBNtFile='../gaussian5d_input/obcs_31day/OBNt.bin',
++ OBWsFile='../gaussian5d_input/obcs_31day/OBWs.bin',
++ OBSsFile='../gaussian5d_input/obcs_31day/OBSs.bin',
++ OBNsFile='../gaussian5d_input/obcs_31day/OBNs.bin',
+  OBCS_balanceFacW=1.,
+  OBCS_balanceFacS=1.,
+  OBCS_balanceFacN=1.,
