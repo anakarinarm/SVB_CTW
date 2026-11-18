@@ -2,9 +2,13 @@ cff-version: 1.2.0
 message: "If you use this configuration, please cite it as below."
 title: "MITgcm configuration for coastal-trapped waves generated at Sebastián Vizcaíno Bay (SVB_CTW)"
 authors:
-  - family-names: "Ramos Musalem"
+  - family-names: "Ramos-Musalem"
     given-names: "Karina"
     affiliation: "CICESE"
+    orcid: "https://orcid.org/0000-0002-4022-9024"
+  - family-names: "Thelandersson"
+    given-names: "Amelia"
+    orcid: "https://orcid.org/0009-0007-0525-0059"
 license: MIT
 repository-code: "https://github.com/anakarinarm/SVB_CTW"
 keywords:

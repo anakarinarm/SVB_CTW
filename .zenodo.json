@@ -4,8 +4,13 @@
   "description": "MITgcm (checkpoint69k-11-gdecd05a68) configuration, namelists, input-generation and analysis scripts for wind-forced coastal-trapped-wave experiments with and without Sebastián Vizcaíno Bay (realistic and smoothed bathymetries). Model output is not included.",
   "creators": [
     {
-      "name": "Ramos Musalem, Karina",
-      "affiliation": "CICESE"
+      "name": "Ramos-Musalem, Karina",
+      "affiliation": "CICESE",
+      "orcid": "0000-0002-4022-9024"
+    },
+    {
+      "name": "Thelandersson, Amelia",
+      "orcid": "0009-0007-0525-0059"
     }
   ],
   "license": "MIT",
