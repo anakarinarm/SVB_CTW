@@ -11,6 +11,16 @@ authors:
     affiliation: "CICESE"
     orcid: "https://orcid.org/0009-0007-0525-0059"
 license: MIT
+version: "v1.0"
+date-released: "2026-11-18"
+doi: "10.5281/zenodo.24355113"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24355113"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.24355114"
+    description: "Version v1.0"
 repository-code: "https://github.com/anakarinarm/SVB_CTW"
 keywords:
   - MITgcm

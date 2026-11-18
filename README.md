@@ -1,4 +1,4 @@
-# `SVB_CTW` 
+# `SVB_CTW`
 
 [![DOI](https://zenodo.org/badge/1438965545.svg)](https://doi.org/10.5281/zenodo.24355113)
 
@@ -17,6 +17,12 @@ the input binaries or the model output.
 Until 2026-10-29 this lived in `verification/CTW_SVB` of a personal MITgcm
 fork; the history of that folder was carried over. Superseded configurations
 are in `archive/` (see `archive/README.md`).
+
+## Citation
+
+Archived on Zenodo. Cite the version you used; the code for the manuscript is
+v1.0, [doi:10.5281/zenodo.24355114](https://doi.org/10.5281/zenodo.24355114).
+All versions: [doi:10.5281/zenodo.24355113](https://doi.org/10.5281/zenodo.24355113).
 
 ## Layout
 
@@ -187,3 +193,5 @@ used for the runs (see the log at the end of this file).
   `PACKAGES_CONFIG.h`) and compiler flags were identical.
 - 2026-11-18: added `environment.yml`; created from scratch, every script in
   `scripts/` imports cleanly and ffmpeg is found by matplotlib.
+- 2026-11-18: released v1.0 and archived it on Zenodo
+  (doi:10.5281/zenodo.24355114; all versions doi:10.5281/zenodo.24355113).
