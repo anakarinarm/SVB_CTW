@@ -1,4 +1,6 @@
-# `SVB_CTW`
+# `SVB_CTW` 
+
+[![DOI](https://zenodo.org/badge/1438965545.svg)](https://doi.org/10.5281/zenodo.24355113)
 
 > Written by Claude, approved by KRM.
 
