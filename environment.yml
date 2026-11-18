@@ -1,0 +1,24 @@
+# Written by Claude, approved by KRM.
+# Python environment for the input-generation, setup and analysis scripts.
+# Versions are those used for the runs and figures (2026).
+#   conda env create -f environment.yml
+#   conda activate svb_ctw
+name: svb_ctw
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.4
+  - scipy=1.17
+  - pandas=3.0
+  - xarray=2026.2
+  - netcdf4=1.7
+  - h5py=3.16
+  - matplotlib=3.10
+  - cmocean=4.0
+  - ffmpeg          # QC animations (matplotlib FFMpegWriter)
+  - jupyter         # scripts/plot_bathy.ipynb
+  - ipykernel
+  - pip
+  - pip:
+      - MITgcmutils==0.2.2

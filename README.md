@@ -23,6 +23,7 @@ README.md                                  this file
 build.sh                                   builds the executable against an MITgcm checkout
 build_options/                             genmake2 options used for the runs (macOS arm64, gfortran, MPI)
 LICENSE, CITATION.cff, .zenodo.json        license and citation metadata
+environment.yml                            conda environment for the Python scripts
 README_CODEX_CTW_RERUNS.md                 rerun specification (Codex hand-off, July 2026)
 ctw_reruns_telescoped_west64_south72/      FINAL configuration: all run namelists, build, QC
 code_telescoped_west64_south72_noexch2/    model code of the final configuration
@@ -163,8 +164,10 @@ used for the runs (see the log at the end of this file).
 
 ## Practical notes
 
-- Python: a conda/miniforge environment with MITgcmutils, xarray, netCDF4,
-  matplotlib and cmocean.
+- Python: `conda env create -f environment.yml` and `conda activate svb_ctw`
+  (Python 3.12, conda-forge; versions as used for the runs). It includes
+  MITgcmutils, xarray, netCDF4, h5py, matplotlib, cmocean, ffmpeg (QC movies)
+  and Jupyter (`plot_bathy.ipynb`).
 - New case: copy a run folder, change the namelist, create its external
   folder with `prepare_external_output_dirs.py`, and run there.
 - Git tracks namelists, code, scripts and READMEs. Binaries, output, builds,
@@ -180,3 +183,5 @@ used for the runs (see the log at the end of this file).
   2026-07-29), except for the build date string in `eeintro_msg.for`. Headers
   (`SIZE.h`, `CPP_OPTIONS.h`, `OBCS_OPTIONS.h`, `DIAGNOSTICS_SIZE.h`,
   `PACKAGES_CONFIG.h`) and compiler flags were identical.
+- 2026-11-18: added `environment.yml`; created from scratch, every script in
+  `scripts/` imports cleanly and ffmpeg is found by matplotlib.
