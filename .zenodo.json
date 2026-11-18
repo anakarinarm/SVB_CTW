@@ -10,7 +10,25 @@
     },
     {
       "name": "Thelandersson, Amelia",
+      "affiliation": "CICESE",
       "orcid": "0009-0007-0525-0059"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cornuelle, Bruce D.",
+      "affiliation": "Scripps Institution of Oceanography",
+      "type": "Researcher"
+    },
+    {
+      "name": "Gille, Sarah T.",
+      "affiliation": "Scripps Institution of Oceanography",
+      "type": "Researcher"
+    },
+    {
+      "name": "Mazloff, Matthew R.",
+      "affiliation": "Scripps Institution of Oceanography",
+      "type": "Researcher"
     }
   ],
   "license": "MIT",

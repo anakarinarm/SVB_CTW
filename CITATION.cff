@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-4022-9024"
   - family-names: "Thelandersson"
     given-names: "Amelia"
+    affiliation: "CICESE"
     orcid: "https://orcid.org/0009-0007-0525-0059"
 license: MIT
 repository-code: "https://github.com/anakarinarm/SVB_CTW"
